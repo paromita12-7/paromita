@@ -1,0 +1,104 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Mini Website</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      background: linear-gradient(120deg, #74b9ff, #a29bfe);
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin-top: 30px;
+    }
+
+    nav {
+      margin: 20px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 10px;
+      padding: 8px 15px;
+      background: #ffffff33;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #ffffff66;
+    }
+
+    img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p {
+      margin: 15px auto;
+      max-width: 500px;
+      line-height: 1.5;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 600px) {
+      img {
+        width: 95%;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px auto;
+      }
+    }
+
+    /* Briefing style */
+    .brief {
+      background: #ffffff33;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Page 💫</h1>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Computer Image -->
+  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Computer">
+
+  <p>Hello! I'm Shreya, and this is my first small website using HTML & CSS.</p>
+
+  <!-- Short 5-line Briefing -->
+  <div class="brief">
+    <p>1. This is my first mini website made with HTML, CSS, and JavaScript.</p>
+    <p>2. It has a header, navigation menu, a computer image, and a short introduction.</p>
+    <p>3. I added a small JavaScript alert for interaction.</p>
+    <p>4. The website is responsive and works on both desktop and mobile screens.</p>
+    <p>5. I learned how to structure, style, and add basic interactivity to a web page.</p>
+  </div>
+
+  <script>
+    alert("Welcome Shreya ");
+  </script>
+</body>
+</html>
